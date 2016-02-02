@@ -1,0 +1,275 @@
+.adm {
+padding-top: 30px;
+padding-bottom: 60px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.span12 {
+  width: 988px;
+}
+
+.span11 {
+  width: 904px;
+}
+
+.span10 {
+  width: 820px;
+}
+
+.span9 {
+  width: 736px;
+}
+
+.span8 {
+  width: 652px;
+}
+
+.span7 {
+  width: 568px;
+}
+
+.span6 {
+  width: 484px;
+}
+
+.span5 {
+  width: 400px;
+}
+
+.span4 {
+  width: 316px;
+}
+
+.span3 {
+  width: 232px;
+}
+
+.span2 {
+  width: 148px;
+}
+
+.span1 {
+  width: 64px;
+}
+
+.offset12 {
+  margin-left: 1028px;
+}
+
+.offset11 {
+  margin-left: 944px;
+}
+
+.offset10 {
+  margin-left: 860px;
+}
+
+.offset9 {
+  margin-left: 776px;
+}
+
+.offset8 {
+  margin-left: 692px;
+}
+
+.offset7 {
+  margin-left: 608px;
+}
+
+.offset6 {
+  margin-left: 524px;
+}
+
+.offset5 {
+  margin-left: 440px;
+}
+
+.offset4 {
+  margin-left: 356px;
+}
+
+.offset3 {
+  margin-left: 272px;
+}
+
+.offset2 {
+  margin-left: 188px;
+}
+
+.offset1 {
+  margin-left: 104px;
+}
+
+.row-fluid [class*="span"] {
+  min-height: 20px\0/;
+}
+*+html .row-fluid [class*="span"]{
+  min-height: 14px;
+}
+
+h1{line-height: 40px;}
+
+h2,
+h3 {
+  line-height: 30px;
+}
+
+h1 {
+  font-size: 31.5px;
+}
+
+h2 {
+  font-size: 24.5px;
+}
+
+h3 {
+  font-size: 17.5px;
+}
+
+h4 {
+  font-size: 14.5px;
+}
+
+
+*+html label,
+*+html input,
+*+html button,
+*+html select,
+*+html textarea {
+  line-height: auto;
+}
+
+
+label {
+  margin:10px 0 5px;
+}
+
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  margin-bottom: 3px;
+}
+
+.help-block,
+.help-inline {
+  white-space: nowrap;
+}
+
+.help-block {
+  display: inline;
+  margin-bottom: 0;
+  font-size: .9em;
+  margin-left: 5px;
+}
+
+
+.form-btns{
+    border-top: 1px dashed #ccc;
+    padding-top: 20px;
+    clear: both;
+    margin-top: 20px;
+}
+
+.form-btns *{margin-right:10px;}
+
+.button-column .view{
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-top: 1px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("../img/glyphicons-halflings.png");
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+}
+
+.icon-phone {
+  background-position: -2px      -164px;
+}
+
+.icon-key{
+    background-position: -25px -161px;
+}
+
+.icon-editcalendar{
+    width: 16px;
+    background-position: -170px -162px;
+}
+
+.icon-viewcalendar{
+    width: 16px;
+    background-position: -193px -162px;
+}
+
+.icon-alertcalendar{
+    width: 18px;
+    background-position: -218px -162px;
+}
+
+.icon-updatetime{
+    background-position: -241px -162px;
+}
+
+.icon-people{
+    background-position: -122px -163px;
+}
+
+.icon-back{
+    background-position: -146px -164px;
+}
+
+.icon-toggle-on{
+  vertical-align: middle;
+  background-position: -73px  -163px;    
+}
+
+
+.icon-toggle-off{
+  vertical-align: middle;
+  background-position: -97px  -163px;    
+}
+
+.icon-upload-alt {
+  background-position: -265px      -163px;
+}
+
+.button-column .view, .icon-view{
+    background-position: -48px -161px;
+}
+
+.collapse.in {
+  height: auto!important;
+}
+
+.navbar-inner {
+  padding-right: 0px;
+  padding-left: 0px;
+  border: none;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+.breadcrumb {
+  margin: 20px 0 20px;
+}
+
+.form-horizontal .control-label{margin: 0;}

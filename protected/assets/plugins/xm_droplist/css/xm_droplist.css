@@ -1,0 +1,30 @@
+.checklist{
+    position: absolute;
+    min-width: 150px;
+    border: 1px solid #ccc;
+}
+
+.checklist div{
+    border-bottom: 1px solid #ccc;
+    vertical-align: middle;
+    padding: 2px 0;
+}
+
+.checklist div:last-child{
+    border-bottom: none;
+}
+
+.checklist label{display: inline-block; width: 80%}
+
+.box-checklist:hover .checklist{display: block!important;}
+
+.input-checklist{
+    width: 95%;
+    color: #666666;
+    border: 1px solid #cccccc;
+    background-color: #FFFFFF;
+    padding: 6px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}

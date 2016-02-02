@@ -1,0 +1,17 @@
+Author: Rohit Suthar <rohitsuthar@gmail.com>
+Copyright 2014 Rohit Suthar
+Package: SocialShareButton
+Version: 1.0
+
+
+Contact Me -
+http://fb.com/rohisuthar
+
+
+For Query -
+http://stackoverflow.com/users/1732454/rohit-suthar-mumbai
+http://disqus.com/rohitsuthar/
+
+
+Github -
+https://github.com/rohitsuthar/SocialShareButton/

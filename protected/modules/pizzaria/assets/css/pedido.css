@@ -1,0 +1,239 @@
+span > input[type="radio"] + label{display: inline-block!important;}
+span > input[type="radio"]{margin-top: 0;}
+
+#sistema-pedido .nav-tabs i{margin-right: 5px; width: auto!important;}
+#sistema-pedido .nav-tabs a{color: #333!important; font-size: .9em; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);}
+#sistema-pedido .nav-tabs > .active *{color: #de2110;}
+
+.modal-list-sabores > div,
+.modal-list-adicional > div,
+.modal-list-itemcombinado > div{margin: 0;}
+
+.item-sabor-modal,
+.item-itemcombinado-modal,
+.item-adicional-modal{border:1px solid #ccc; border-top:0; padding: .5em; position: relative; width: auto;}
+
+.item-sabor-modal:first-child,
+.item-itemcombinado-modal:first-child,
+.item-adicional-modal:first-child{border-top: 1px solid #ccc;}
+
+
+.modal_preco_sabor,
+.modal_preco_itemcombinado,
+.modal_preco_adicional{font-weight: bold; font-size: .9em;}
+
+.resumo_preco,
+.resumo-sub-total span,
+.resumo-taxa-frete span,
+.resumo-total span {white-space: nowrap;}
+
+@media only screen and (max-width : 525px){
+    #EnderecoPedido_endereco{margin-left: 0px;}
+    .btn_add_adicional{margin-top: .5em;}
+    
+    .bg-pedido img{margin-top: 50px!important;}
+    /*    #sistema-pedido > .tab-content{padding: 0;}*/
+    /*.navbar-fixed-top{position: fixed;}*/
+    .modal-body{max-height: 360px;}
+
+    #sistema-pedido > .nav-tabs{
+        border-bottom: 0; background-color: #fefefe; padding: 0; text-align: center;
+        -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.5);
+        -moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.5);
+        box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.5);
+
+        position: fixed;
+        width: 100%;
+        top: 50px;
+        left: 0;
+    }
+
+    #sistema-pedido > .nav-tabs li{float: none; display: inline-block; margin: 0 .5em;}
+    #sistema-pedido > .nav-tabs a{padding-top: 12px; padding-left: 19px; padding-right: 19px; padding-bottom: 10px; margin-right: 0; font-size:0; border: 0; background: none;}
+    #sistema-pedido > .nav-tabs i{vertical-align: middle; width: auto!important; line-height: none!important; margin-right: 0;}
+    #sistema-pedido > .nav-tabs > .active a{border-bottom: 4px solid #de2110;}
+
+
+    #nav-finalizar-pedido{margin-top: 10px;}
+    #nav-finalizar-pedido .nav-tabs a{margin-right: 0; font-size:0;}
+    #nav-finalizar-pedido .nav-tabs i{color: #999; vertical-align: middle; width: auto!important; line-height: none!important;}
+
+    #sistema-pedido > .tab-content{border: 0; margin-top: 106px;}
+
+    .content-pizza select{margin-bottom: .5em;}
+
+
+    .box-sabores{border-top: 1px dotted #ccc; margin-top: .5em; padding-top: 1em;}
+    .list-sabores{margin-top: 1em; border: 0; padding: 0;}
+
+    .thumb-sabor{border:1px solid #ccc; border-top:0; padding: 0 .5em;}
+    .thumb-sabor:first-child{border-top: 1px solid #ccc;}
+
+    .thumb-sabor > *{float: left;}
+    .thumb-sabor .thumbnail{width: 25%; margin-right: 6%; padding: 3px;}
+    .thumb-sabor .info-sabor{width: 65%;}
+
+    .list-sabores .nome_sabor{text-align: left; font-size: .9em; margin: .5em 0;}
+    .item-adicional-modal .nome_adicional{font-size: .9em; margin: 0;}
+
+    .item-adicional-modal{border:1px solid #ccc; border-top:0; padding: .5em;}
+    .item-adicional-modal:first-child{border-top: 1px solid #ccc;}
+
+    .add-adicional,.del-adicional{margin: 0}
+
+    .modal_preco_adicional{line-height: 2.2em; font-size: .9em;}
+
+    .item-sabor-modal:first-child,
+    .itemcombinado-modal:first-child{border-top: 1px solid #ccc;}
+
+    .item-sabor-modal.selected .modal_preco_sabor,
+    .itemcombinado-modal.selected .modal_preco_itemcombinado{background: #51a351; color:#fff;}
+
+    .modal_preco_sabor,
+    .modal_preco_itemcombinado{position: absolute; top: 35%; left: -1px; background: #DE2110; color: #fff; padding: 0.5em;}
+
+    .modo-basico .modal_preco_sabor,
+    .modo-basico .modal_preco_itemcombinado{top: 16%;}
+    
+    .nome_sabor,
+    .nome_itemcombinado{margin: 0; text-align: center; line-height: 2em;}
+
+    .ingredientes,
+    .descricao_itemcombinado{text-align: center;}
+
+    .item-sabor-modal .thumbnail,
+    .itemcombinado-modal .thumbnail{border-radius: 100%; margin-bottom: 10px;}
+    
+    .modo-basico .itemcombinado-modal .thumbnail,
+    .modo-basico .item-sabor-modal .thumbnail{border-radius: 0;}
+    
+    .item-sabor-modal .thumbnail > img,
+    .itemcombinado-modal .thumbnail > img{width: 100%; border-radius: 100%;}
+
+    .content-pizza{border-radius: 0;}
+    .content-pizza{background:none;}
+
+    .card-pizza{margin-bottom: .2em;}
+    .btn_add_pizza{margin-top: 1.5em;}
+
+    .content-combinado{border-radius: 0;}
+    .content-combinado{background:none;}
+
+    .item-produto > div{display: inline-block!important;}
+
+    .thumb-produto{width: 25%!important; vertical-align: top; margin-right: 3%;}
+    .info-produto{width: 70%!important;}
+
+
+    .box-formapagamento{border:0;}
+    
+    .info-adicional h5,.btns-adicional{text-align: center;}
+    .btns-adicional .btn{display: block;}
+}
+
+@media only screen 
+and (min-width : 526px){
+    
+    #EnderecoPedido_endereco{margin-left: 50px;}
+    .thumb-sabor{width: 23.404255319148934%; float: left; margin-left: 2.127659574468085%;}
+    .thumb-sabor:first-child{margin-left: 0;}
+    
+    .item-sabor-modal .img-sabor,
+    .item-itemcombinado-modal .img-itemcombinado,
+    .item-adicional-modal .img-adicional{width: 14.893617021276595%; float: left;}
+    
+    .item-sabor-modal .box-sabor,
+    .item-itemcombinado-modal .box-itemcombinado,
+    .item-adicional-modal .box-adicional{width: 82.97872340425532%; float: left; margin-left: 2.127659574468085%;}
+    
+    .item-sabor-modal .box-sabor .info-sabor,
+    .item-itemcombinado-modal .box-itemcombinado .info-itemcombinado,
+    .item-adicional-modal .box-adicional .info-adicional{width: 65.95744680851064%; float: left;}
+
+    .item-sabor-modal .box-sabor .btns-sabor,
+    .item-itemcombinado-modal .box-itemcombinado .btns-itemcombinado,
+    .item-adicional-modal .box-adicional .btns-adicional
+    {width: 31.914893617021278%; float: left; margin-left: 2.127659574468085%; text-align: right;}
+}
+
+@media only screen 
+and (min-width : 526px)
+and (max-width : 768px){
+    #sistema-pedido{padding: 10px; margin-top: 61px;}
+    #sistema-pedido .nav-tabs i{margin-right: 0;}
+
+    .thumb-produto{width: 14.893617021276595%!important; float: left!important;}
+    .info-produto{width: 82.97872340425532%!important; float: left!important; margin-left: 2.127659574468085%!important;}
+
+    
+    .content-pizza{background:none;}
+    
+}
+
+.bg-pedido{
+/*    background: rgba(0,0,0,.9) url('../images/bg-pedido.jpg')  center center fixed no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+    background: rgba(0,0,0,.9);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+.bg-pedido img{display: block; margin: 1em auto; width: 600px;}
+
+.bg-pedido select{margin-top: 0;}
+
+#Pedido_troco[type="number"]{display: none;}
+#Pedido_troco[type="text"]{display: inline-block;}
+
+.list-itemcombinado {border-top:1px dashed #ccc; margin-top: 10px; padding-top: 10px;}
+.list-itemcombinado.vazio{border:0; margin-top: 0; padding-top: 0;}
+
+@media only screen
+and (max-width: 768px){
+
+    html.sb-active #sistema-pedido .tab-content{margin-top: 0;}
+
+    #info-pedido{position: fixed; bottom: 0; width: 100%; padding: 10px 0; background: rgba(0,0,0,.9); left: 0; z-index: 2}
+    #info-pedido .titulo{display: none;}
+
+    .info-geral-bar-top{color: #fff; float: left; width: 50%; font-size: .9em; text-align: center;}
+
+    #Pedido_troco[type="number"]{display: inline-block;}
+    #Pedido_troco[type="text"]{display: none;}
+}
+
+@media only screen 
+and (min-width : 950px)
+{    
+    .list-itemcombinado .thumbnail{height: 110px;}
+    .list-sabores.vazio{height: 200px; background: url("../images/detalhes-pedido.png") no-repeat left center;}
+    #info-pedido{
+        text-align: center;
+        border: 1px solid #ddd;
+        font-size: .9em;
+        position: fixed;
+        right: 10px;
+        width: 170px;
+        margin-top: 36px;
+        -webkit-box-shadow: 0 8px 6px -6px black;
+        -moz-box-shadow: 0 8px 6px -6px black;
+        box-shadow: 0 8px 6px -6px black;
+        background: #fff;
+    }
+    
+}
+
+
+@media only screen and (max-width : 380px){
+    .modal-body {
+        max-height: 290px;
+    }
+}

@@ -1,0 +1,412 @@
+
+
+.modo-basico .thumbnail{text-align: center;}
+
+.modo-basico .item-adicional-modal .thumbnail i,
+.modo-basico .img-sabor i,
+.modo-basico .list-sabores > .thumb-sabor i,
+.modo-basico #sistema-pedido_tab_2 .item-produto > .thumb-produto i,
+.modo-basico #sistema-pedido_tab_3 .item-produto > .thumb-produto i,
+.modo-basico #sistema-pedido_tab_4 .item-produto > .thumb-produto i{
+    height: 100%;
+    width: auto!important;
+    background: none;
+    color: #333;
+}
+
+.selected .thumbnail i{
+    color: #fff!important;
+}
+
+.modo-basico .item-adicional-modal .thumbnail i:before,
+.modo-basico .img-sabor i:before,
+.modo-basico .list-sabores > .thumb-sabor i:before,
+.modo-basico #sistema-pedido_tab_2 .item-produto > .thumb-produto i:before,
+.modo-basico #sistema-pedido_tab_3 .item-produto > .thumb-produto i:before,
+.modo-basico #sistema-pedido_tab_4 .item-produto > .thumb-produto i:before{
+    font-size: 6em;
+    text-align: center;
+    line-height: 1em;    
+}
+
+.modo-basico .img-sabor i:before,
+.modo-basico .list-sabores > .thumb-sabor i:before{
+    content: "\e009";
+    font-size: 5em;
+}
+
+.modo-basico .item-adicional-modal .thumbnail i:before{
+    content: "\e00a";
+    font-size: 5em;
+}
+
+.modo-basico #sistema-pedido_tab_2 .item-produto > .thumb-produto i:before{
+    content: "\e001";
+}
+
+
+.modo-basico #sistema-pedido_tab_3 .item-produto > .thumb-produto i:before{
+    content: "\e001";
+}
+
+.modo-basico #sistema-pedido_tab_4 .item-produto > .thumb-produto i:before{
+    content: "\e00e";
+}
+
+#logo{margin: auto; width: 180px; height: 180px; display: block;}
+
+#sb-site, .sb-site-container{background-color: transparent!important; }
+#sistema-pedido .tab-content{background-color: #fff;}
+
+.bg-red{
+    background: #DE2110!important;
+    color: #fff!important;
+    text-decoration: none!important;
+}
+
+.bg-green{
+    background: #2C9939!important;
+    color: #fff!important;
+    text-decoration: none!important;
+}
+
+.bg-yellow{
+    background: #f89406!important;
+    color: #fff!important;
+    text-decoration: none!important;
+}
+
+.modal{z-index: 99999;}
+
+#box-geral-pedido{
+    padding: 1em;
+}
+
+.bg-verde{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #9dd53a; /* Old browsers */
+    background: -moz-linear-gradient(top, #9dd53a 0%, #a1d54f 50%, #80c217 51%, #7cbc0a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9dd53a), color-stop(50%,#a1d54f), color-stop(51%,#80c217), color-stop(100%,#7cbc0a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
+}
+
+.bg-laranja{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #ffb76b; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffb76b 0%, #ffa73d 50%, #ff7c00 51%, #ff7f04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffb76b), color-stop(50%,#ffa73d), color-stop(51%,#ff7c00), color-stop(100%,#ff7f04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); /* IE6-9 */
+}
+#info-consultar > form{margin: 0;}
+
+#list-card-combinado{margin-bottom: 10px;}
+
+.titulo_combinado{padding: 10px; font-weight: normal; line-height: 2.5em; letter-spacing: .1em; font-size: 13px;}
+
+.content-combinado{
+    padding: 10px;
+    border:1px solid #ddd;
+    border-top: 0;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card-combinado{margin-bottom: 10px;}
+.card-combinado:last-child{margin-bottom: 0px;}
+
+.preco_combinado{text-align: right;}
+
+.titulo_pizza *{font-weight: normal; line-height: 2.5em; letter-spacing: .1em; font-size: 13px; margin: 0 5px;}
+
+.border-top{
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tipo_pizza{margin-top: 1em;}
+
+.content-pizza{
+    padding: 15px;
+    border:1px solid #ddd;
+    border-top: 0;
+    background-color: #fcf8e3;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.list-sabores-modelo{margin-top: 15px;}
+
+.list-sabores {padding-top: 1em;}
+
+.list-sabores .thumbnail,
+.list-sabores .thumbnail img{
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.modo-basico .list-sabores .thumbnail,
+.modo-basico .list-sabores .thumbnail img{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;    
+}
+
+.add-sabor, .del-sabor, .add-adicional, .del-adicional{margin-top: 10px;}
+
+.list-sabores .nome_sabor,
+.list-adicional .nome_adicional{text-align: center}
+
+.item-sabor{border-bottom:1px dashed #ddd; padding-bottom: 10px;}
+
+.modal-list-sabores h5,
+.modal-list-itemcombinado h5,
+.modal-list-adicional h5{margin-top: 0;}
+
+.numero_passo{
+    background-color: #eec600;
+    width: 10px;
+    margin-right: 1em;
+    font-size: .8em;
+    color: #ce251e;
+    padding: 2px 6px;
+    font-weight: bold;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+}
+
+#opcoes-pagamento{font-size: .9em; margin-top: 1em;}
+
+.descricao-formapagamento{padding: 1em; background: #eee; margin-top: 1em;}
+
+.ingredientes,.descricao_itemcombinado{font-size: .8em;}
+.nav-tabs{margin-bottom: 0!important;}
+.tab-content{padding: 10px; border: 1px solid #ddd; border-top: 0;}
+
+.resumo-list-sabores,
+.item-extra,
+.resumo-peso{font-size: .8em; margin: 0;}
+
+.resumo-sub-total{border-bottom: 1px dotted #ddd;}
+
+h6{margin: 10px 0 3px!important;}
+
+.resumo-sub-total h6{color: #2C9939;}
+
+.resumo-taxa-frete h6{color: darkorange;}
+
+.resumo-total h6{color: orangered;}
+
+.item-promocao{border-bottom: 1px dotted #ddd; padding: .5em 0;}
+.item-produto{border-bottom: 1px dotted #ddd; padding-bottom: 1em; margin-bottom: 1em;}
+
+.item-promocao:last-child,
+.item-produto:last-child{border-bottom: 0;}
+
+.info-promocao{font-size: .9em;}
+.info-promocao input{margin: 0!important;}
+
+.item-produto h4{margin: 0 0 5px!important; text-align: left; font-size: .9em;}
+
+.item-produto .peso{font-size: .9em; margin: 0 0 5px;}
+
+.modal-list-sabores > div,
+.modal-list-itemcombinado > div,
+.modal-list-adicional > div{margin-bottom: 1em;}
+
+.item-sabor-modal.selected .nome_sabor,
+.item-sabor-modal.selected .ingredientes,
+.item-sabor-modal.selected .modal_preco_sabor,
+.item-itemcombinado-modal.selected .nome_itemcombinado,
+.item-itemcombinado-modal.selected .descricao_itemcombinado,
+.item-itemcombinado-modal.selected .modal_preco_itemcombinado,
+.item-adicional-modal.selected .nome_adicional,
+.item-adicional-modal.selected .ingredientes,
+.item-adicional-modal.selected .modal_preco_adicional{color: #51a351}
+
+.item-sabor-modal.selected .thumbnail,
+.item-itemcombinado-modal.selected .thumbnail,
+.item-adicional-modal.selected .thumbnail{background-color: #51a351}
+
+.card-pizza{margin-bottom: 1.5em;}
+
+.box-formapagamento h3{margin: 0 0 .5em; padding-bottom: .5em; border-bottom: 1px dashed #ccc;}
+
+#page h1{margin: 1em 0; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);}
+
+#dinheiro h5{margin: 0 0 1em;}
+
+#info-local{background-color: #A01614; padding: 1em 0; width: 100%; font-size: .8em; line-height: 2em; color: #fff; text-align: center;}
+
+#main{background-color: white; border-bottom: 1px dotted #ccc;}
+
+.sb-slidebar #nav_main{padding: 0; margin: 0;}
+
+.sb-slidebar #nav_main > li{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sb-slidebar #nav_main > li a:hover{
+    color: #de2110;
+    border-left: 3px solid #de2110;
+}
+
+.sb-slidebar #nav_main > li a{
+    border-left: 3px solid transparent;
+    color: #f2f2f2;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    padding: 1em;
+}
+
+.font_style{
+    color: #ffaf31;
+    font-family: 'Courgette',cursive;
+    transition: all 0.4s ease 0s;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.font_style:hover {
+    color: #E4001A;
+    text-decoration: none;
+}
+
+.desc_cardapio{font-size: .9em;}
+
+
+.content-pizza label{font-size: .9em; line-height: 1.5em; margin: 1em 0 0;}
+
+.nome_sabor{font-size: .9em;}
+
+.preco-produto{font-size: .8em; font-weight: bold; color:#de2110}
+
+
+// Tablets e desktops
+@media (min-width: 768px){
+    .box-sabores{border-left: 1px solid #ddd; padding-left:20px; min-height: 150px;}
+}
+
+.navbar-fixed-top{margin:0!important;}
+
+.box-mobile > h4{
+    margin: 0;
+    padding: .5em 1em;
+    font-weight: normal;
+    color: #fff;
+    letter-spacing: .1em;
+    font-size: 13px;
+}
+.box-mobile{margin-bottom: 10px;}
+.box-mobile .content-box{padding: 10px; border: 1px solid #ddd;}
+
+.hero-unit h1{margin: 0 0 .5em!important;}
+
+@media only screen
+and (max-width: 768px){
+    html,#page,body{box-shadow:none; background: none;}
+
+    #page{margin-bottom: 40px;}
+    body{padding-left: 0!important; padding-right: 0!important;}
+
+    html.sb-active .navbar-fixed-top,
+    html.sb-active #sistema-pedido > .nav-tabs
+    {
+        position: static!important;
+        top: 0;
+    }
+    .navbar-fixed-top{position: fixed!important;}
+
+
+    .hero-unit{
+        padding: 30px!important;
+        margin-top: 51px;
+        text-align: center;
+    }
+
+    html.sb-active .hero-unit{margin-top: 0!important;}
+
+    .hero-unit h1{font-size: 25px!important;}
+
+
+}
+
+@media only screen 
+and (min-width : 950px)
+{
+    body {
+        background: rgba(0,0,0,.9) url('../images/bg-pizzaria.jpg')  center center fixed no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    #info-pedido .titulo{line-height: 2.5em;}
+    #info-pedido > div{margin-bottom: 1em;}
+
+    #info-local{bottom: 0; position: absolute;}
+
+    header#main{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 180px;
+        height: 100%;
+        background: rgba(0,0,0,.7);
+    }
+    #nav_main{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    #nav_main > li a:hover{
+        color: #de2110;
+    }
+
+    #nav_main > li a{
+        color: #f2f2f2;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 1em;
+    }
+
+    .container{width: 940px!important; margin: 0 auto!important;}
+    
+}
+
+.list-itemcombinado .nome_itemcombinado{font-size: .8em; text-align: center;}
